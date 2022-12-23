@@ -1,0 +1,33 @@
+{
+  "name": "bb-weapons-props",
+  "id": "bb-weapons-props",
+  "title": "Blodborne properties (weapons)",
+  "description": "Adds weapon properties from PDF by Lv99 Pangolin",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Don Macaron",
+      "url": "https://t.me/dmhqonline"
+    }
+  ],
+  "scripts": [
+    "scripts/bb-weapons-props.js"
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility":{
+          "minimum": "2.0.0",
+          "verified": "2.0"
+        },
+        "type": "system"
+      }
+    ]
+  }
+}
